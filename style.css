@@ -1,0 +1,66 @@
+.container {
+    max-width: 1400px;
+    padding: 20px;
+    margin: 40px;
+}
+#twitter{
+    background-color: rgb(0, 225, 255);
+    font-size: 60px;
+    border-radius: 100px;
+    -webkit-text-fill-color: white;
+    text-align: center;
+    height: 125px;
+    width: 300px;
+    cursor:pointer;
+    border: none;
+    padding: 20px;
+    margin: 40px;
+    transition: background-color 2s, 
+        color 2s;
+}
+#twitter:hover{
+        background: rgba(20, 245, 245, 0.856); /* Slightly darker blue on hover */  
+        -webkit-transform:rotate(-1deg);
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+}
+#youtube{
+    background-color: rgb(255, 51, 0);
+    font-size: 60px;
+    border-radius: 100px;
+    -webkit-text-fill-color: white;
+    text-align: center;
+    height: 125px;
+    width: 300px;
+    cursor:pointer;
+    border: none;
+    padding: 20px;
+    margin: 40px;
+    transition: background-color 2s, 
+        color 2s;
+}
+#youtube:hover{
+    background: rgba(245, 20, 20, 0.856); /* Slightly darker blue on hover */  
+    -webkit-transform:rotate(-1deg);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+}
+#subscribe{
+    background-color: rgb(255, 51, 0);
+    font-size: 60px;
+    border-radius: 100px;
+    -webkit-text-fill-color: white;
+    text-align: center;
+    height: 125px;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+    cursor:pointer;
+    box-shadow: 5px 5px 5px white(0, 0, 0, 0.15);
+    transition: background-color 2s, 
+        color 2s;
+}
+#subscribe:hover{
+    background: rgba(218, 30, 30, 0.856); /* Slightly darker blue on hover */  
+    -webkit-transform:rotate(-1deg);
+    opacity: 1px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+}
